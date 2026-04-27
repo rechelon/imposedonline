@@ -1,0 +1,25 @@
+.wrap {
+  margin-top: 1.5rem;
+}
+
+.track {
+  height: 2px;
+  background: var(--rule);
+  border-radius: 1px;
+  overflow: hidden;
+  margin-bottom: 0.6rem;
+}
+
+.fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 1px;
+  transition: width 0.3s ease;
+}
+
+.label {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: #888;
+  letter-spacing: 0.04em;
+}

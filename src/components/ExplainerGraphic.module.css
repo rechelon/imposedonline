@@ -1,0 +1,44 @@
+.wrap {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--rule);
+}
+
+.svg {
+  display: block;
+  overflow: visible;
+}
+
+/* SVG text styles via CSS classes on <text> elements */
+.il {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  fill: #999;
+}
+
+.ip {
+  font-family: 'DM Mono', monospace;
+  font-size: 12px;
+  font-weight: 500;
+  fill: #1a1a18;
+}
+
+.ih {
+  font-family: 'DM Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  fill: #aaa;
+}
+
+.ic {
+  font-family: 'DM Mono', monospace;
+  font-size: 9px;
+  fill: #c84b2f;
+}
+
+@media (prefers-color-scheme: dark) {
+  .ip { fill: #e8e4da; }
+  .il { fill: #666; }
+  .ih { fill: #555; }
+  .ic { fill: #e8633f; }
+}
